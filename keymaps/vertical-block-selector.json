@@ -1,6 +1,0 @@
-{
-  "atom-workspace": {
-    "shift-alt-up": "expand-selection-to-indentation:select-up",
-    "shift-alt-down": "expand-selection-to-indentation:select-down"
-  }
-}

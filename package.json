@@ -2,9 +2,9 @@
   "name": "indent-sort",
   "main": "./lib/index",
   "version": "0.2.0",
-  "description": "Sorts with respect to indentation",
+  "description": "Sorts blocks of text with respect to indentation.",
   "keywords": [
-    "sort indent indentation block"
+    "sort indent indentation block props react alphabetical"
   ],
   "repository": "https://github.com/Overload119/indent-sort",
   "license": "MIT",
