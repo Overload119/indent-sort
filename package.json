@@ -1,0 +1,17 @@
+{
+  "name": "indent-sort",
+  "main": "./lib/index",
+  "version": "0.2.0",
+  "description": "Sorts with respect to indentation",
+  "keywords": [
+    "sort indent indentation block"
+  ],
+  "repository": "https://github.com/Overload119/indent-sort",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "javascript-natural-sort": "^0.7.1"
+  }
+}
