@@ -36,6 +36,15 @@ class Foo() {
     func();
   }
 }
+
+<Foo
+  aFoo={2}
+  bFoo={1}
+  unsortedProp={{
+    a: 1,
+    z: 2,
+  }}
+/>
 ```
 
 ## keymap.json
