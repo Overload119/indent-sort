@@ -1,7 +1,14 @@
 # Indent Sort
 
-- Sorts while respecting indentation. Useful for when you have method in a class for example and you want to sort the methods, not the lines themselves.
-- Uses the indentation from the line of the caret and sorts in respect to that.
+A normal line sort can ruin the layout and syntax of indented code. This plugin aims to
+respect indentation while sorting, useful for sorting method names, or props of a React component.
+
+## Usage
+
+- Uses the indentation from the first highlighted line.
+- Makes some assumptions about the indented code. Namely:
+  - Newlines are preserved and kept in the same order.
+  - Include single-character lines as part of the indentation block.
 
 ![Indent Sort](./demo.gif)
 
@@ -14,6 +21,13 @@ class Foo() {
     func();
   }
 }
+
+def methodC:
+  foo()
+def methodA:
+  foo()
+def methodB:
+  foo()
 
 <Foo
   unsortedProp={{
@@ -37,6 +51,13 @@ class Foo() {
   }
 }
 
+def methodA:
+  foo()
+def methodB:
+  foo()
+def methodC:
+  foo()
+
 <Foo
   aFoo={2}
   bFoo={1}
@@ -49,9 +70,7 @@ class Foo() {
 
 ## keymap.json
 
-This is the default keymap.json. Feel free to update it.
-
 ```
 'atom-workspace':
-  'cmd-shift-6': 'indent-sort:sort'
+  'ctrl-6': 'indent-sort:sort'
 ```

@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "cmd-shift-6": "indent-sort:sort"
+    "ctrl-6": "indent-sort:sort"
   }
 }

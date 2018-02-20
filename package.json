@@ -1,7 +1,7 @@
 {
   "name": "indent-sort",
   "main": "./lib/index",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Sorts blocks of text with respect to indentation.",
   "keywords": [
     "sort indent indentation block props react alphabetical"
