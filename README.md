@@ -37,6 +37,17 @@ def methodB:
   aFoo={2}
   bFoo={1}
 />
+
+const Object = {
+  getA() {
+    return 'a';
+  };
+
+  getB() {
+    foo();
+    return 'b';
+  };
+};
 ```
 
 Will turn into:
